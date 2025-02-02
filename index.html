@@ -7,41 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <aside class="menu">
-            <div class="logo">
-                </div>
+    <header>
+        <h1>AgriTech: Optimizando Cultivos para un Futuro Sostenible</h1>
+        <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
                 <li><a href="#">Análisis de Suelo</a></li>
                 <li><a href="#">Condiciones de Cultivo</a></li>
                 <li><a href="#">Historial</a></li>
             </ul>
-        </aside>
+        </nav>
+    </header>
 
-        <main>
-            <header>
-                <h1>AgriTech: Optimizando Cultivos para un Futuro Sostenible</h1>
-            </header>
+    <main>
+        <section id="analisis-suelo">
+            <h2>Análisis de Suelo</h2>
+            <button id="activar-analisis">Activar Análisis</button>
+            <div id="resultados-analisis">
+                </div>
+        </section>
 
-            <section id="analisis-suelo">
-                <h2>Análisis de Suelo</h2>
-                <button id="activar-analisis">Activar Análisis</button>
-                <div id="resultados-analisis">
-                    </div>
-            </section>
-
-            <section id="condiciones-cultivo">
-                <h2>Condiciones de Cultivo</h2>
-                <select id="selector-cultivo">
-                    <option value="mora">Mora</option>
-                    <option value="lulo">Lulo</option>
-                    </select>
-                <div id="resultados-condiciones">
-                    </div>
-            </section>
-        </main>
-    </div>
+        <section id="condiciones-cultivo">
+            <h2>Condiciones de Cultivo</h2>
+            <select id="selector-cultivo">
+                <option value="mora">Mora</option>
+                <option value="lulo">Lulo</option>
+                </select>
+            <div id="resultados-condiciones">
+                </div>
+        </section>
+    </main>
 
     <footer>
         <p>Derechos reservados &copy; 2023</p>
