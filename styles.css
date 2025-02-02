@@ -5,34 +5,46 @@ body {
     color: #006400; /* Verde oscuro */
 }
 
+.container {
+    display: flex;
+}
+
+.menu {
+    width: 200px; /* Ancho del menú lateral */
+    background-color: #FFFFFF; /* Blanco */
+    padding: 20px;
+}
+
+.logo {
+    /* Estilos para el logo */
+    height: 100px; /* Ejemplo */
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    color: #006400; /* Verde oscuro */
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* El contenido principal ocupa el resto del espacio */
+    padding: 20px;
+}
+
 header {
     background-color: #FFFFFF; /* Blanco */
     padding: 20px;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #006400; /* Verde oscuro */
-    color: #FFFFFF; /* Blanco */
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    color: #FFFFFF; /* Blanco */
-    text-decoration: none;
-    padding: 10px;
-}
-
-main {
-    padding: 20px;
 }
 
 section {
